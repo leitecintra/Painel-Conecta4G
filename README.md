@@ -17,7 +17,7 @@
 <li>Ativar ou desativar o CheckUser</li>
 </ol>
 
-<h3>☑️ Configurações</h3> <br>
+<h3>☑️ Configurações na source</h3> <br>
 
 <ol>
 <li>Faça o upload do arquivo <b>painel.sql</b> para o seu banco de dados </li>
@@ -28,6 +28,14 @@
 <b>$dbpass</b> (senha do seu banco de dados)<br>
 <b>$dbname</b> (nome do seu banco de dados)
 </li></ol><br>
+
+<h3>☑️ Configurações no app</h3> <br>
+<ol>
+  <li>No arquivo config.json em <b>"UrlUpdate":</b> adicione a url do seu site /update.php <br></li>
+  Exemplo: <b>http://site.xyz/update.php</b></li>
+  <li>Em versão deixe 1.0.0 pois por padrão no painel já está 2.0.0</li>
+  <li>Não precisa configurar mais nada, só isso !</li>
+  </ol>
 
 
 <h3>☑️ Informações</h3> <br>
