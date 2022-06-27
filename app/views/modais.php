@@ -418,11 +418,11 @@
                 <form action="?page=edit&action=sms" method="post">
 
                     <label for=""><span style="color: black;">SMS</span></label>
-                    <textarea name="porta" class="form-control" rows="4"><?=Functions::getConfig('msg')?></textarea>
+                    <textarea name="sms" class="form-control" rows="4"><?=Functions::getConfig('msg')?></textarea>
 
             </div>
             <div class="modal-footer">
-                <button type="submit" name="edit_sms" class="btn btn-primary">Salvar mudanças</button></form>
+                <button type="submit" name="edt_sms" class="btn btn-primary">Salvar mudanças</button></form>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
             </div>
         </div>
